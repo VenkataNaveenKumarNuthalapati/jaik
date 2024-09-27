@@ -5,6 +5,7 @@ import './index.css'
 
 const Header = () => {
   const {cartItem, restaurantName} = useContext(MyContext)
+  console.log('ji')
   return (
     <div className="header-card">
       <h1 className="heading">{restaurantName}</h1>
